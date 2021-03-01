@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("jonggyou/myapp-jenkins")
+        app = docker.build("taejoonmoon/myapp")
     }
 
     stage('Test image') {
